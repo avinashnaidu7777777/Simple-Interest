@@ -3,3 +3,5 @@ R=float(input("Enter rate of interest: "))
 T=float(input("Enter time: "))
 si=P*R*T/100
 print("Simple interest: ",si)
+ap=si+P
+print("Amount payable: ",ap)
